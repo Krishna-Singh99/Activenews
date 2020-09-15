@@ -1,0 +1,74 @@
+
+.logo{
+
+    width: 200px;
+    margin: 0 auto;
+    display: center;
+    padding-top: 200px;
+    padding-left: 20px;
+   
+}
+
+.home
+{
+  --ion-background-color: linear-gradient(197deg, rgba(224, 101, 101, 0.925) 0%, rgb(218, 114, 114) 13.5%, rgb(236, 231, 150)33.33%, rgba(116, 95, 94, 0.986) 150%) !important;
+}
+
+.p1
+{
+   text-align: center;
+    color: rgb(22, 13, 13);
+    font-size: 40px;
+    font-family: forte;
+    font-weight: bolder;
+}
+@keyframes fade {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fade {
+    animation-name: fade;
+    animation-duration: 10s;
+  }
+  @keyframes p1{
+    from {
+      opacity: 0;
+    }
+    
+    to {
+      opacity: 1;
+    }
+  }
+  .p1 {
+    animation-duration: 5s; 
+    animation-name: flip;
+   
+    
+  }
+  .p2{
+      text-align: center;
+      font-size: 20px;
+      
+      
+  }
+  
+  .p2{
+   
+    animation-name: fade;
+    animation-duration: 30s;
+  }
+  @keyframes flip{
+  from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+.hr{
+    color: black;
+}
+  
+  

@@ -1,0 +1,25 @@
+<ion-content class="bg">
+
+  <ion-header>
+    <ion-toolbar color="dark">
+      <ion-buttons slot="start">
+        <ion-button href="cate">
+          <ion-icon name="arrow-back"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+      <ion-title>SPORTS  TIME</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-card  color="dark" *ngFor="let ob of sport">
+    <ion-img src="{{ ob.urlToImage }}"></ion-img>
+    <ion-card-header>
+      <ion-card-subtitle class="col">{{ ob.author }}</ion-card-subtitle>
+      <ion-card-title>{{ ob.title }}</ion-card-title>
+    </ion-card-header>
+   
+    <ion-card-content>
+      {{ ob.description }}
+    </ion-card-content>
+  </ion-card>
+</ion-content>

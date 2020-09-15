@@ -1,0 +1,7 @@
+{
+  "name": "activenews",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
